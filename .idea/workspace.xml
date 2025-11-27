@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4529252-f468-418a-bccd-1400b5ebddc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
