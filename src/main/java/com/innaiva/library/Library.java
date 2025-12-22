@@ -1,6 +1,7 @@
 package com.innaiva.library;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 public class Library {
@@ -16,8 +17,8 @@ public class Library {
                 return b;
             }
         }
-
-        return null; //if not found
+        //return null; //if not found-not correct: will output RunTimeException
+        throw new IllegalArgumentException("Book with id " + id + " not found");
     }
 
     public void listBooks() {
@@ -65,5 +66,9 @@ public class Library {
         System.out.println("You returned: " + book.getTitle());
 
         return true;
+    }
+
+    public List<Book> getBooks() {
+        return books;
     }
 }
