@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4529252-f468-418a-bccd-1400b5ebddc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/LibraryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/innaiva/library/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innaiva/library/LibraryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LibraryTest.testReturnBook">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.innaiva.library.Main" />
       <module name="LibraryManager" />
@@ -60,8 +58,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.innaiva.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.innaiva.library" />
+      <option name="MAIN_CLASS_NAME" value="com.innaiva.library.LibraryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testBorrowBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.innaiva.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.innaiva.library" />
+      <option name="MAIN_CLASS_NAME" value="com.innaiva.library.LibraryTest" />
+      <option name="METHOD_NAME" value="testBorrowBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testReturnBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.innaiva.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.innaiva.library" />
+      <option name="MAIN_CLASS_NAME" value="com.innaiva.library.LibraryTest" />
+      <option name="METHOD_NAME" value="testReturnBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testShouldNotAllowBorrowingBorrowBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.innaiva.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.innaiva.library" />
+      <option name="MAIN_CLASS_NAME" value="com.innaiva.library.LibraryTest" />
+      <option name="METHOD_NAME" value="testShouldNotAllowBorrowingBorrowBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.testReturnBook" />
+        <item itemvalue="JUnit.LibraryTest.testShouldNotAllowBorrowingBorrowBook" />
+        <item itemvalue="JUnit.LibraryTest.testBorrowBook" />
+        <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
